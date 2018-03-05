@@ -1,0 +1,48 @@
+
+//Clases en C++
+#include <iostream>
+#include <stdlib.h>
+	using namespace std;
+
+	class	Persona
+    { 
+      private: //Atributos
+        int edad;
+        string nombre;
+      public: //métodos
+        Persona(int,string) //Constructor
+        void leer();
+        void correr();
+    };
+    
+// Constrcutor para incicializar los datos de los objetos 
+
+Persona::Persona(int _edad,string _nombre)
+         {      
+         edad = _edad;
+         nombre = _nombre;
+         } 
+    
+ void Persona:leer(string)
+         {
+          cout<<"Soy "<<nombre<<"y estoy leyendo un libro "<<endl;
+         }
+    
+ void Persona:correr(string)
+         {
+          cout<<"Soy "<<nombre<<"y estoy corriendo una maratón "<<endl;
+         }         
+
+int main() 
+{   
+    Persona P1= Persona(20,"Christian");
+    P1.leer(string);
+    Peronsa P2= Persona(18,"Maria");
+    P2.correr();
+    system ("pause");
+    return 0;
+    
+    
+    
+    
+    
